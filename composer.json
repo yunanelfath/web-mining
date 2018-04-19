@@ -1,0 +1,13 @@
+{
+    "require": {
+    		"php": ">=5.5.9",
+    		"laravel/framework": "5.2.*",
+    		"laravel/tinker": "^1.0",
+        "sastrawi/sastrawi": "1"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "disable-tls": true,
+      "secure-http": false
+    }
+}
