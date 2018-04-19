@@ -3,11 +3,12 @@
     		"php": ">=5.5.9",
     		"laravel/framework": "5.2.*",
         "sastrawi/sastrawi": "^1.2.0",
-    		"laravel/tinker": "^1.0"
+    		"laravel/tinker": "^1.0",
+        "sastrawi/tokenizer": "0.*"
     },
     "config": {
       "preferred-install": "dist",
-      "disable-tls": true,
-      "secure-http": false
+      "disable-tls": false,
+      "secure-http": true
     }
 }
