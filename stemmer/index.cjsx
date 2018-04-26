@@ -1,3 +1,8 @@
+ReactDOM = require('react-dom')
 React = require('react')
+Wrapper = require('./../assets/js/wrapper.cjsx')
 
-alert('test')
+ReactDOM.render(
+	<Wrapper/>
+	document.getElementById('root')
+)
