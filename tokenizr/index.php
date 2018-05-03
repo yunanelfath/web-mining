@@ -8,6 +8,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $tokenizerFactory  = new \Sastrawi\Tokenizer\TokenizerFactory();
 $tokenizer = $tokenizerFactory->createDefaultTokenizer();
 
-$tokens = $tokenizer->tokenize('Saya membeli barang seharga Rp 5.000 di Jl. Prof. Soepomo no. 67.');
+$text = $_REQUEST['textp'];
+
+$tokens = $tokenizer->tokenize($text);
 
 echo json_encode($tokens);
